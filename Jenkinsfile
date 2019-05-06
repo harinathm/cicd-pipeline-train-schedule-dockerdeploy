@@ -21,7 +21,7 @@ pipeline {
                 }
             }
         }
-        stage('Build Docker image') {
+        stage('Push Docker Image') {
             when {
                 brnach 'master'
             }
